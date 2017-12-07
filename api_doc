@@ -1,0 +1,7 @@
+
+Api for display only one isurance template 
+http://127.0.0.1:8000/api/display/insurance-template?name=best
+ 
+Api dispaly all insurance template.
+http://127.0.0.1:8000/api/display/all-insurance
+
