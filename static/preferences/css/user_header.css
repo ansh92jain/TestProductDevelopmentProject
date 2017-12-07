@@ -1,0 +1,38 @@
+
+.custheader{
+    /*width: 100%;
+    float: right;*/
+    margin: 0;
+}
+.custheader-main{
+    margin-top: 0;
+}
+.custheader .caption{
+    float: left;
+    line-height: 35px;
+}
+.custheader .tools{
+    float: right;
+}
+h3.custtitle{
+    width: 45%;
+    float: none;
+    padding-left: 0;
+}
+select#select-contact-filter + span.select2{
+    right: -268px;
+}
+.page-content-white .page-title {
+    margin: 0 0 7px;
+}
+
+/* Safari */
+/*@media screen and (-webkit-min-device-pixel-ratio:0){
+      select#select-contact-filter + span.select2 {
+      right: -510px;
+    }
+  }*/
+
+::i-block-chrome,select#select-contact-filter + span.select2{
+  right: -510px;
+}

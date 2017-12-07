@@ -1,0 +1,29 @@
+.custheader-main{
+    border: none;
+    padding: 0 0 15px;
+    margin-top: -8px;
+    float: left;
+    width: 100%;
+}
+.custheader-main ~ .portlet.light.bordered {
+	border: none !important;
+}
+.custheader-main ~ .portlet.light.bordered > .portlet-title{
+	border: none;
+	margin-bottom: 0;
+	min-height: 40px;
+}
+.custheader-main + .portlet.light.bordered > .portlet-title + hr{
+	margin: 5px 0;
+}
+.page-content-white .page-content .page-bar{
+	margin-top: -16px;
+	background: none;
+}
+
+
+@media screen and (max-width: 767px){
+	.page-content-white .page-content .page-bar{
+		margin-top: 0;
+	}
+}

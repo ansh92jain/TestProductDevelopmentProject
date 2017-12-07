@@ -1,0 +1,42 @@
+.custheader-main{
+    /*border: 1px solid #e7ecf1 !important;*/
+    padding: 0 15px 0 0;
+}
+.custheader-main .custheader .caption.font-dark{
+  padding: 0;
+}
+.custheader-main ~ .portlet.light.bordered{
+	margin-top: 20px;
+}
+.custheader-main ~ .portlet.light.bordered > .portlet-title{
+	border: none;
+}
+select#select-contact-filter + span.select2 {
+  right: 26px;
+  top: 51px;
+}
+.tools.dropdown select#contact_type, 
+.tools.dropdown select#contact_type + a#add{
+  top: 0;
+  position: relative;
+}
+.page-content-white h3.page-title.custtitle{
+    display: none;
+}
+.custheader-main .custheader{
+  float: none;
+  width: 100%;
+  margin: 0;
+}
+.page-content-wrapper .page-content {
+  padding: 57px 19px 10px;
+}
+
+@media screen and (max-width: 767px){
+	select#select-contact-filter + span.select2, 
+  .tools.dropdown select#contact_type, 
+  .tools.dropdown select#contact_type + a#add {
+  	right: 0;
+  	top: 0;
+	}
+}

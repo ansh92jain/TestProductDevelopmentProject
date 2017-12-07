@@ -1,0 +1,1727 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.family_plus {
+    position: absolute;
+    top: 6px;
+    width: 15px;
+}
+.portlet-title + .portlet-body.form .bordersettings label.control-label{
+    margin: 0;
+    padding-top: 5px;
+}
+
+strong span.timepattern-error{
+    text-align: center;
+    color: red;
+}
+
+.progress{
+  height: 12px;
+}
+
+#time-pattern-form .input-medium {
+  width: 192px !important;
+}
+.pd-none{
+  padding: 0;
+}
+form .formpttrn {
+    border-top: 1px solid #e5e5e5;
+}
+form .formpttrn ul {
+    display: block;
+    margin: 10px 90px;
+}
+form .formpttrn ul li {
+    padding-right: 10px;
+}
+form .formpttrn ul li label input[type=radio] {
+    position: relative;
+    top: 2px;
+}
+.stepthree .formpttrn {
+    margin-left: 15px;
+}
+.stepthree .form-group {
+    margin-bottom: 0px;
+}
+.stepthree .formpttrn ul li {
+    padding-right: 15px;
+}
+.stepthree .formpttrn > label {
+    float: left;
+    margin-top: 8px;
+}
+.stepthree .formpttrn ul li label {
+    text-align: center;
+    float: left;
+}
+.stepthree .formpttrn ul li label input[type=radio] {
+    width: 16px;
+    height: 20px;
+    display: block;
+    margin: -2px 6px;
+    float: left;
+}
+
+/*===============*/
+form .blod-prsur {
+    margin: 0 0 10px;
+    padding-right: 0;
+}
+/*form .stepthree {
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+}*/
+.formborder .formpttrn {
+    border: none;
+}
+.formborder .stepthree {
+    margin-bottom: 8px;
+}
+.blod-prsur label {
+    margin-right: 5px;
+}
+.blod-prsur input {
+    padding: 0 5px;
+}
+#save-bloodpressure-form h3 {
+    margin: 0 10px 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 12px;
+}
+#save-bloodpressure-form .formborder hr {
+    margin: 0;
+    border-top: 1px solid #d7d7d7;
+}
+#save-bloodpressure-form .formpttrn label {
+    margin: 0;
+}
+.dateborder {
+    max-height: 650px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-top: -5px;
+}
+.dateborder span {
+    padding: 5px;
+}
+.dateborder li {
+    display: block;
+}
+.dateborder .select-dates {
+    border-bottom: 1px solid #d7d7d7;
+    /*border-right: 1px solid #d7d7d7;*/
+}
+.blod-prsur input {
+    width: 80%;
+}
+.medicl-contct {
+    position: relative;
+}
+#sortable .contct-detil {
+    margin-left: 180px;
+    position: relative;
+    margin-top: -52px;
+}
+#sortable .contct-detil h4 {
+    font-size: 12px;
+}
+.category-div {
+    padding-right: 0;
+}
+.portlet-body.form .category-div .form-group {
+    margin-left: -2px;
+}
+.category-div .select2-container{
+    z-index: 9;
+}
+
+form#patient-assessment-form {
+    min-height: 550px;
+}
+.portlet-body #assessment_history_chart {
+    overflow: visible !important;
+}
+.amcharts-chart-div > svg {
+    left: -40px !important;
+}
+#save-schema-task-form .lowsec{
+    min-width: 60px;
+    float: left;
+    padding: 0 8px 0 15px;
+    max-width: 118px;
+    line-height: 29px;
+}
+#save-schema-task-form .lowsec + input{
+    width: 100%;
+    float: left;
+    max-width: 90px;
+    height: 29px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+}
+#save-schema-task-form .lowsec ~ select{
+    width: 120px;
+    float: left;
+    margin: 0 0 0 10px;
+    height: 29px;
+    padding: 0 5px;
+}
+#save-schema-task-form hr{
+    border-color: #ccc;
+    margin: 10px 0;
+}
+#save-schema-task-form .formsec label{
+    float: left;
+    margin-left: 28px;
+    margin-bottom: 0;
+}
+#save-schema-task-form .formsec label:first-child {
+    margin-left: 0;
+}
+#save-schema-task-form .formsec div.position-head {
+
+}
+#save-schema-task-form .formsec label input[type="radio"]{
+    position: relative;
+    top: 3px;
+}
+#save-schema-task-form .modal-body{
+    padding: 0 0 15px;
+}
+#save-schema-task-form {
+    /*max-height: 706px;
+    overflow-x: hidden;
+    overflow-y: auto;*/
+}
+#todo-task-modal .popupwindow {
+    max-height: 706px;
+    overflow-x: hidden;
+    overflow-y: auto;   
+}
+.catogray-realted-treatment {
+    padding-right: 0;
+}
+#save-schema-task-form{
+    margin-left: 0;    
+    margin-right: 0;
+}
+#save-schema-task-form h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+#save-schema-task-form h4 {
+    margin: 15px 0; 
+}
+.padding-top-bottom {
+    padding: 8px 0;
+}
+#note-title {
+    margin-bottom: 15px;
+}
+.buttns {
+    margin-bottom: 4px;
+    margin-left: 6px;
+}
+.buttns button {
+    font-size: 12px;
+}
+
+
+
+
+
+input#id_birthday{
+  z-index: 0;
+}
+
+.pd-none{
+    padding: 0;
+
+}
+.pd-lft-nn{
+    padding-left: 0;
+}
+.pd-right-none: {
+    padding-right: 0;
+
+}
+
+.select2-dropdown{
+    z-index: 0 !important;
+}
+
+.error-msg{
+    text-align: center;
+    color: red;
+}
+
+.date-of{
+    z-index: 0 !important;
+}
+
+ul#ui-id-1{
+    z-index: 99999;
+    position: fixed;
+}
+
+.category-div{
+    padding: 0 15px 50px;
+}
+
+.question{
+    padding-left: 22px;
+}
+.questionsection h4.question.radio-select input[type="radio"]{
+    float: left;
+    margin-right: 5px;
+    top: -2px;
+}
+.questionsection h4.question.radio-select input + span{
+    float: left;
+    width: 89%;
+    display: inline-block;
+}
+.answer-radio-submit.{
+    position: relative; 
+    top: 4px;
+}
+
+.answer-text-submit{
+    margin:0 0 10px 25px; 
+    width: 30%;
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter:alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+    z-index: 10000;
+    background: url('/static/img/assessment-loder.gif?111fddb99dcb') no-repeat #000 center center;
+}
+.assessmentent, 
+.assessmentent .row{
+    margin: 0;
+}
+.category-div select#category-id{
+    width: 80%;
+    text-align: left;
+}
+.cate-questions div  div.questionsection:nth-child(even){
+    background: #f9f9f9;
+}
+.cate-questions div div.questionsection{
+    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+}
+.cate-questions .categoryremark{
+    margin-top: 50px;
+    padding: 15px;
+}
+.cate-questions h4 strong{
+    text-transform: capitalize;
+}
+.category-div span#no-question{
+    display: block;
+    margin: 5px 0 5px 16px;
+}
+.cate-questions .categoryremark textarea{
+    resize: none;
+}
+.questionsection input.answer-text-submit + span{
+    margin-left: 27px;
+}
+a.edit-answer-btn{
+    padding: 2px 8px;
+    float: right;
+    margin-top: 10px;
+}
+.cate-questions #question-answers-modal .modal-body{
+    padding: 15px 0;
+    max-height: 470px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.cate-questions #question-answers-modal .modal-body .answer-date{
+    color: #aaa;
+    float: right;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    top: 6px;
+}
+
+.cate-questions #question-answers-modal .modal-body .question{
+    padding-right: 80px;
+    position: relative;
+}
+ 
+.alert-msg{
+    text-align: center;
+}
+.cate-questions .panel + .panel{
+    margin-top: 6px;
+}
+.cate-questions .panel-heading{
+    background: none;
+    border: none;
+    padding: 0;
+}
+.questioncate{
+    background: rgb(238, 238, 238);
+    line-height: 30px;
+    margin: 0;
+}
+.questioncate h3{
+    font-size: 20px;
+    margin: 6px 0;
+    line-height: 24px;
+    cursor: pointer;
+    display: inline-block;
+}
+.questioncate h3 i{
+    color: #32c5d2;
+}
+.questioncate h3[aria-expanded="true"] i.fa-plus, 
+.questioncate h3[aria-expanded="false"] i.fa-minus{
+    display: none;
+}
+.questioncate h3 strong{
+    font-weight: 600;
+}
+.questioncate a.btn.green{
+    margin: 3px auto;
+    display: inline-block;
+    padding: 4px 12px;
+}
+.cate-questions .panel-default .panel-body{
+    padding: 10px 0;
+}
+#patients, 
+#templates{
+    width: 100%;
+}
+#patients + .select2-container--default .select2-selection--single, 
+#templates + .select2-container--default .select2-selection--single{
+    height: 32px;
+}
+
+
+#date-of-assessment{
+    z-index: auto;
+}
+.completed-check input[type="checkbox"]{
+    display: inline-block;
+    height: 24px;
+    margin: 0;
+    position: relative;
+    right: -28px;
+    top: 6px;
+    width: 24px;
+    outline: none;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.completed-check input[type="checkbox"] + span {
+    background: #fff none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 24px;
+    line-height: 22px;
+    text-align: center;
+    width: 24px;
+}
+.completed-check input[type="checkbox"]:checked + span {
+    color: #32c5d2;
+}
+.cate-questions div div.questionsection input[type="radio"]{
+    position: relative;
+    top: 3px;
+}
+
+.tour-contact .questionsection {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #f1f1f1;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+}
+.tour-contact #tour-related-contact .questionsection h4{
+    cursor: pointer;
+}
+.tour-contact #tour-related-contact .questionsection h4 span{
+    cursor: default;
+}
+.tour-contact #tour-contacts .questionsection {
+    cursor: pointer;
+}
+.tour-contact .questionsection img{
+    width: 100%;
+    margin-top: 3px;
+}
+.tour-contact .questionsection h4{
+    line-height: 30px;
+}
+.tour-contact .questionsection h4:nth-child(2){
+    margin-bottom: 0;
+}
+.tour-contact .questionsection h4 > span, 
+.tour-contact .questionsection h4 > label{
+    float: right;
+}
+.tour-contact .questionsection h4.fulladdress strong{
+    float: left;
+    margin-right: 5px;
+}
+.tour-contact .questionsection h4.fulladdress > span{
+    float: left;
+    width: 68%;
+}
+.tour-contact .questionsection h4 strong{
+    font-weight: 600;
+}
+.tour-contact .questionsection h4 input[type="checkbox"]{
+    position: relative;
+    opacity: 0;
+    top: 4px;
+    z-index: 2;
+}
+.tour-contact .questionsection h4 input[type="checkbox"] + b{
+    background-image: url('/static/img/sprite.png?111fddb99dcb');
+    background-repeat: no-repeat;
+    background-position: 0 -260px;
+    height: 19px;
+    width: 19px;
+    display: inline-block;
+    margin: 0 5px 0 -23px;
+    position: relative;
+    top: 5px;
+}
+.tour-contact .questionsection h4 input[type="checkbox"]:checked + b{
+    background-position: -76px -260px;
+}
+.tour-contact .questionsection a.remove-contact{
+    background: #fff none repeat scroll 0 0;
+    border-radius: 100% !important;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    position: absolute;
+    right: -2px;
+    text-align: center;
+    top: -5px;
+    width: 20px;
+}
+.portlet-body.form h4.tourname{
+    padding: 0 20px;
+}
+.portlet-body.form .category-div{
+    padding: 0 15px 0;
+}
+.radio-check input[type="radio"]{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.radio-check input[type="radio"] + b{
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    color: #32c5d2;
+    display: inline-block;
+    font-size: 14px;
+    height: 20px;
+    line-height: 18px;
+    margin: 1px 5px 0 -24px;
+    text-align: center;
+    width: 20px;
+    float: left;
+}
+.radio-check input[type="radio"] + b i{
+    display: none;
+    margin-top: 2px;
+}
+.radio-check input[type="radio"]:checked + b i{
+    display: block;
+}
+/*.alertmain{
+    height: 50px;
+}*/
+.tour-contact .questionsection h4 > span.map-point{
+    float: none;
+}
+.category-div a.map-route-btn{
+    background: #32c5d2 none repeat scroll 0 0;
+    padding: 5px 25px;
+}
+
+.portlet-body.form .form-body.tour-contact{
+    padding: 10px 20px 20px;
+}
+.form-body.tour-contact .category-div + h3.form-section{
+  margin: 20px 0;
+}
+.portlet.box.green .portlet-title + .portlet-body.form  .alert.route-message-error{
+    padding: 6px;
+    margin-bottom: 0;
+}
+.portlet.box.green .portlet-title + .portlet-body.form .alertmain {
+    min-height: 32px;
+    height: auto;
+}
+#tour-related-contact ul#sortable{
+    margin: 0;
+    padding: 0;
+}
+#tour-contacts ul#sortable li.ui-sortable-handle,
+#tour-related-contact ul#sortable li.ui-sortable-handle{
+    list-style: none;
+}
+
+.note-error{
+    color:red;
+}
+
+#map {
+    width: 100%;
+    height: 425px;
+}
+.map_route_btn{
+    margin-bottom: 15px;
+    padding: 4px 12px 3px;
+    border: none;
+}
+.custtitle + .portlet.box > .portlet-title + .portlet-body.form h4.tourname{
+    margin-top: 0;
+    padding-top: 10px;
+}
+.portlet-body.form #reportrange{
+    margin-bottom: 10px;
+}
+.portlet-title + .portlet-body.form label.control-label{
+    margin-top: 0;
+    padding: 6px 2px;
+}
+
+#outer-box-border, #compact-header{
+    width: 85px;
+}
+
+ul#id_routine_task_choices, 
+#patient-services-form ul,
+#contact-item-form ul{
+    padding: 0;
+    margin: 0;
+    max-height: 420px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+ul#id_routine_task_choices li, 
+#patient-services-form ul li,
+#contact-item-form ul li{
+    list-style: none;
+    display: block;
+    line-height: 33px;
+    min-height: 35px;
+    width: 100%;
+    padding: 16px 20px;
+}
+ul#id_routine_task_choices li:hover, 
+#patient-services-form ul li:hover,
+#contact-item-form ul li:hover{
+    /*background-color: #eee;*/
+}
+ul#id_routine_task_choices li label, 
+#patient-services-form ul li label, 
+#contact-item-form ul li label{
+    display: block;
+    line-height: 20px;
+    word-break: break-all;
+    margin: 0;
+}
+ul#id_routine_task_choices li label input[type="checkbox"], 
+#patient-services-form ul li label input[type="checkbox"], 
+#contact-item-form ul li label input[type="checkbox"]{
+    display: inline-block;
+    float: left;
+    line-height: 20px;
+    margin: 0 10px 0 0;
+    width: 20px;
+    height: 20px;
+}
+#patient-services-form-div{
+    padding: 0 34px;
+}
+#patient-services-form-div textarea{
+    height: 80px;
+}
+.additonal_note1{
+    margin-bottom: 15px;
+}
+.slimScrollDiv .todo-task-modal-body{
+    padding: 0 15px;
+}
+.slimScrollDiv h3.todo-task-modal-bg{
+    margin: 0;
+}
+.page-content-wrapper #todo-task-modal > .modal-dialog{
+    width: 55%;
+    z-index: 1;
+    max-height: 700px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#patient-services-form-div .modal-footer{
+    padding-right: 0;
+}
+.tour-contact select#pre-prepartion-tour + span.select2-container--default{
+    width: 100% !important;
+}
+#todo-task-modal > .modal-dialog .modal-content > .todo-task-modal-body > h3{
+    margin-bottom: 0;
+}
+.taskstatus{
+    max-height: 320px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.taskstatus p{
+    font-weight: 600;
+    margin: 20px;
+    text-transform: uppercase;
+}
+.taskstatus p.completed{
+    color: green;
+}
+.taskstatus p.inprocess{
+    color: red;
+}
+.addtnlcmmnt h3{
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #f7f9fa;
+    padding: 20px;
+}
+.addtnlcmmnt h4{
+    font-weight: 600;
+    margin: 20px 20px 0;
+}
+.addtnlcmmnt h4 span{
+    text-transform: uppercase;
+}
+.addtnlcmmnt .addtnlcmmntdtls{
+    max-height: 100px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 20px;
+}
+.addtnlcmmnt .addtnlcmmntdtls p{
+    line-height: 22px;
+}
+.custtitle + .portlet .mt-element-step .step-line .mt-step-number{
+    width: 30px;
+    height: 30px;
+    padding: 0;
+    line-height: 33px;
+    font-size: 18px;
+    top: -4px;
+}
+.custtitle + .portlet .mt-element-step .step-line .mt-step-title:after, 
+.custtitle + .portlet .mt-element-step .step-line .mt-step-title:before{
+    top: -23px;
+}
+
+.tour-contact .questionsection .contact-visited h4.fulladdress > span, 
+.tour-contact .questionsection .contact-visited h4.fulladdress strong, 
+.tour-contact .questionsection .contact-visited h4 > span, 
+.tour-contact .questionsection .contact-visited h4 > label{
+    float: none;
+    width: auto;
+    word-wrap: break-word;
+}
+.tour-contact .questionsection .contact-visited h4 > label{
+    margin-top: 30px;
+}
+.tour-contact .questionsection .contact-visited h4.cave strong{
+    color: red;
+}
+.tour-contact .questionsection .contact-visited h4.cave{
+    line-height: 20px;
+}
+.tour-contact .questionsection .contact-visited h4.cave p{
+    margin: 0;
+    font-weight: bold;
+    word-wrap: break-word;
+}
+body > span.select2-container{
+    z-index: 9;
+}
+
+.contact-filter {
+    margin-top: 8px;
+}
+.contact-filter ul li{
+    list-style: none;
+    float: left;
+    margin: 0 15px;
+    line-height: 32px;
+    white-space: nowrap;
+    word-wrap: break-word;
+}
+.contact-filter ul li input[type="radio"]{
+    float: left;
+    margin: 0 8px 0 0;
+    width: auto;
+}
+.contact-filter ul li label{
+    margin: 0;
+}
+#mediacal-related-contact > .row:first-child{
+    margin: 30px 0;
+    padding: 20px 0;
+    border-top: #ccc solid 1px;
+    border-bottom: #ccc solid 1px;
+}
+#mediacal-related-contact .cate_treatment > .row{
+    margin: 5px 0;
+    padding: 10px;
+}
+#mediacal-related-contact .cate_treatment .row > div{
+    padding: 0;
+}
+#mediacal-related-contact .cate_treatment .row:nth-child(odd){
+    background: #f9f9f9;
+}
+#mediacal-related-contact > .row h4.contact-name{
+    margin-bottom: 10px;
+}
+.portlet-title + .portlet-body.form .category-div label.control-label{
+    margin-top: 2px;
+}
+.popupwindow .rdiobtn {
+    display: inline-flex;
+}
+.popupwindow .rdiobtn label  {
+    margin: 0 10px;
+    padding-left: 22px;
+}
+.popupwindow .rdiobtn input {
+    left: 0;
+}
+.asses_ctgry {
+    max-height: 700px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.qustion_ctgry {
+    position: relative;
+}
+.qustion_ctgry ul span.category_val {
+    color: green;
+    position: absolute;
+    top: 0;
+    left: 185px;
+}
+.qustion_ctgry > ul {
+    margin-left: 10px;
+}
+.qustion_ctgry ul li>span {
+    color: green;
+    font-weight: 600;
+    width: 28px;
+    display: inline-block;
+}
+
+
+
+
+
+
+/*Custom CSS*/
+
+#contact-item-form .popupwindow {
+    min-height: 580px;
+}
+#contact-item-form .popupwindow .pd-right-none {
+    padding-right: 0;
+    
+}
+#contact-item-form .popupwindow .wrdbreak {
+    padding-right: 0;
+    word-break: break-all;
+}
+#contact-item-form .popupwindow .contact-visited {
+    line-height: 20px;
+    min-height: 102px;
+}
+#contact-item-form hr {
+    margin: 0;
+}
+#contact-item-form .popupwindow .contact-name {
+    margin: 3px 0;
+}
+
+#contact-item-form .form-group > .row {
+    line-height: 20px;
+}
+#contact-item-form .popupwindow #select-contact-treatment {
+    z-index: 1;
+}
+#todo-task-modal + .rm-black-border{
+    border: none;
+}
+.modal .modal-dialog {
+    z-index: 2;
+}
+
+/*#schema-form .modal .modal-dialog {
+    z-index: 2;
+}*/
+.schma {
+    margin-bottom: 10px;
+}
+.schma label {
+    padding: 0;
+}
+.schma .pd-none {
+    padding: 0;
+}
+.schma span.mrng {
+    position: relative;
+    top: -2px;
+}
+.schma .strtdate #id_start_date, .schma .strtdate #id_end_date {
+    background: none;
+    border: 1px solid #eee;
+    height: 34px;
+    line-height: 20px;
+
+}
+.schma span.clnder {
+    left: -25px;
+}
+.schma ul {
+    display: inline-flex;
+}
+.schma #id_time li {
+    margin: 0 10px;
+}
+#schema-form .modal-header {
+    padding: 0 10px;
+}
+#schema-form .modal-header h3 {
+    margin: 10px 0;
+}
+.schma span.tyminput input {
+    border: 2px solid #ddd;
+    width: 60px;
+}
+.schma #id_time li input {
+    position: relative;
+    top: 4px;
+}
+#show-schema-form .schma .tymmin {
+    margin: 0 -34px 0px;
+}
+#show-schema-form .schma .tymmin span {
+    position: relative;
+    top: -5px;
+}
+
+#contact-item-form .prgrsbar {
+    padding: 0 30px 0 40px;
+}
+#contact-item-form .step-line span {
+    position: relative;
+    top: -4px;
+}
+/*#contact-item-form .show-time-pattern {
+    padding: 18px;
+}*/
+#contact-item-form .slcttrtmnt {
+    padding-left: 40px;
+}
+#periodic-form .modal-header h3 {
+    margin: 0;
+}
+h2.schema_head{
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 10px;
+  margin-top: 0;
+}
+.save-timebtn {
+    position: absolute;
+    bottom: 15px;
+    right: 16px;
+}
+#save-schema-task-form {
+    height: 100%;
+}
+#save-schema-form .save-timebtn {
+    position: absolute;
+    bottom: -40px;
+    right: 30px;
+}
+#save-schema-form .stepthree {
+    margin-bottom: 10px;
+}
+#save-schema-task-form .save-timebtn {
+    float: right;
+    position: relative;
+    top: 0px;
+}
+#save-schema-task-form .task-time-fields {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+    
+
+#save-schema-form span.times-in-hours {
+    margin-left: 22px;
+}
+#save-schema-task-form input#times {
+    width: 100%;
+    padding: 0 5px;
+}
+
+#save-schema-form input#task-time {
+    margin-left: -59px;
+    text-indent: 5px;
+}
+
+#save-schema-task-form .formsec {
+    position: relative;
+    float: left;
+    width: 85%;
+    border-right: 1px solid #ccc;
+    padding-right: 15px;
+    height: 100%;
+}
+.catogray-realted-treatment .slcttrtmnt label{
+    margin-bottom: 8px;
+}
+.catogray-realted-treatment .mt-element-step .step-line .mt-step-col{
+    padding: 0 0 10px;
+}
+.custtitle + .portlet .catogray-realted-treatment  .mt-element-step .step-line .mt-step-number{
+    line-height: 23px;
+}
+.catogray-realted-treatment .mt-element-step .step-line .mt-step-title{
+    font-size: 16px;
+}
+.catogray-realted-treatment .slcttrtmnt{
+    max-height: 90px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.catogray-realted-treatment hr{
+    margin: 5px 0 20px;
+}
+.ui-sortable-handle h4 {
+    font-size: 14px;
+    margin-bottom: 24px;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.contact-routine-task a {
+    margin-top: 8px;
+}
+.ui-sortable-handle a img {
+    margin: 0 auto;
+}
+#mediacal-related-contact.medicl-contct > .row:first-child {
+    margin: 7px 0 7px;
+    padding: 7px 0 0;
+    /*height: 280px;*/
+}
+.portlet-body canvas, .portlet-body .chart {
+    height: 250px !important;
+}
+.form-body #mediacal-related-contact.medicl-contct > .row:first-child {
+    min-height: 2px;
+    border-top: none;
+    margin: 0 0 5px;
+    padding: 0;
+}
+.clearfix {
+    clear: both;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.select-dates label {
+    float: left;
+}
+.select-dates .form-group {
+    float: left;
+    margin-left: 8px;
+}
+.portlet-body .chart {
+    margin-bottom: 20px;
+}
+.graph-cntnt {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.contct-detil .img-pic {
+    height: 40px;
+    width: 40px;
+}
+.contct-detil .img-pic img {
+    height: auto;
+    width: 100%;
+}
+.date-right-section {
+    float: right;
+    width: 15%;
+    text-align: right;
+}
+.date-right-section ul li {
+    display: block;
+    border-bottom: 1px solid #ccc;
+    padding: 7px;
+}
+.modal-backdrop {
+    z-index: 10;
+}
+
+
+
+#save-bloodpressure-form .stepthree {
+    margin-bottom: 20px;
+}
+#save-bloodpressure-form .formborder h4, 
+#time-pattern-form form h4 {
+    font-weight: 400;
+    color: #000;
+}
+#save-bloodpressure-form .formborder .modal-body input {
+    border-color: #999;
+}
+#save-bloodpressure-form .formborder .modal-body, 
+#time-pattern-form .modal-body {
+    padding: 5px 15px;
+}
+#save-bloodpressure-form .formborder .modal-body .cke_1.cke_chrome, 
+#time-pattern-form .modal-body .cke_1.cke_chrome {
+    border: 1px solid #999;
+}
+#save-bloodpressure-form .formborder .modal-body .cke_1 span.cke_top, 
+#time-pattern-form .modal-body .cke_1 span.cke_top {
+    border-bottom: 1px solid #999;   
+}
+#save-bloodpressure-form .formborder .modal-body .cke_1 span.cke_bottom, 
+#time-pattern-form .modal-body .cke_1 span.cke_bottom {
+    border-top: 1px solid #999;   
+}
+#save-bloodpressure-form .formborder .modal-body .cke_1 .cke_toolgroup, 
+#time-pattern-form .modal-body .cke_1 .cke_toolgroup {
+    border-color: #666;
+}
+#todo-task-modal .modal-body .popupwindow {
+    height: 656px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#todo-task-modal .slimScrollBar{
+    top: 0 !important;
+}
+#save-schema-form hr {
+    border-top: 1px solid #d7d7d7;
+    margin: 10px 0
+}
+label.element input {
+    vertical-align: top;
+}
+
+#save-puls-form h3 {
+    margin: 0 10px 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 12px;
+}
+#save-puls-form .formborder hr {
+    margin: 0;
+    border-top: 1px solid #d7d7d7;
+}
+#save-puls-form .formpttrn label {
+    margin: 0;
+}
+
+#save-puls-form .stepthree {
+    margin-bottom: 20px;
+}
+#save-puls-form .formborder h4, 
+#time-pattern-form form h4 {
+    font-weight: 400;
+    color: #000;
+}
+#save-puls-form .formborder .modal-body input {
+    border-color: #999;
+}
+#save-puls-form .formborder .modal-body, 
+#time-pattern-form .modal-body {
+    padding: 5px 15px;
+}
+#save-puls-form .formborder .modal-body .cke_1.cke_chrome, 
+#time-pattern-form .modal-body .cke_1.cke_chrome {
+    border: 1px solid #999;
+}
+#save-puls-form .formborder .modal-body .cke_1 span.cke_top, 
+#time-pattern-form .modal-body .cke_1 span.cke_top {
+    border-bottom: 1px solid #999;   
+}
+#save-puls-form .formborder .modal-body .cke_1 span.cke_bottom, 
+#time-pattern-form .modal-body .cke_1 span.cke_bottom {
+    border-top: 1px solid #999;   
+}
+#save-puls-form .formborder .modal-body .cke_1 .cke_toolgroup, 
+#time-pattern-form .modal-body .cke_1 .cke_toolgroup {
+    border-color: #666;
+}
+
+
+#save-temperature-form h3 {
+    margin: 0 10px 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 12px;
+}
+#save-temperature-form .formborder hr {
+    margin: 0;
+    border-top: 1px solid #d7d7d7;
+}
+#save-temperature-form .formpttrn label {
+    margin: 0;
+}
+
+#save-temperature-form .stepthree {
+    margin-bottom: 20px;
+}
+#save-temperature-form .formborder h4, 
+#save-temperature-form form h4 {
+    font-weight: 400;
+    color: #000;
+}
+#save-temperature-form .formborder .modal-body input {
+    border-color: #999;
+}
+#save-temperature-form .formborder .modal-body, 
+#save-temperature-form .modal-body {
+    padding: 5px 15px;
+}
+#save-temperature-form .formborder .modal-body .cke_1.cke_chrome, 
+#time-pattern-form .modal-body .cke_1.cke_chrome {
+    border: 1px solid #999;
+}
+#save-temperature-form .formborder .modal-body .cke_1 span.cke_top, 
+#time-pattern-form .modal-body .cke_1 span.cke_top {
+    border-bottom: 1px solid #999;   
+}
+#save-temperature-form .formborder .modal-body .cke_1 span.cke_bottom, 
+#time-pattern-form .modal-body .cke_1 span.cke_bottom {
+    border-top: 1px solid #999;   
+}
+#save-temperature-form .formborder .modal-body .cke_1 .cke_toolgroup, 
+#time-pattern-form .modal-body .cke_1 .cke_toolgroup {
+    border-color: #666;
+}
+
+
+#save-breathing-form h3 {
+    margin: 0 10px 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 12px;
+}
+#save-breathing-form .formborder hr {
+    margin: 0;
+    border-top: 1px solid #d7d7d7;
+}
+#save-breathing-form .formpttrn label {
+    margin: 0;
+}
+
+#save-breathing-form .stepthree {
+    margin-bottom: 20px;
+}
+#save-breathing-form .formborder h4, 
+#save-breathing-form form h4 {
+    font-weight: 400;
+    color: #000;
+}
+#save-breathing-form .formborder .modal-body input {
+    border-color: #999;
+}
+#save-breathing-form .formborder .modal-body, 
+#save-breathing-form .modal-body {
+    padding: 5px 15px;
+}
+#save-breathing-form .formborder .modal-body .cke_1.cke_chrome, 
+#time-pattern-form .modal-body .cke_1.cke_chrome {
+    border: 1px solid #999;
+}
+#save-breathing-form .formborder .modal-body .cke_1 span.cke_top, 
+#time-pattern-form .modal-body .cke_1 span.cke_top {
+    border-bottom: 1px solid #999;   
+}
+#save-breathing-form .formborder .modal-body .cke_1 span.cke_bottom, 
+#time-pattern-form .modal-body .cke_1 span.cke_bottom {
+    border-top: 1px solid #999;   
+}
+#save-breathing-form .formborder .modal-body .cke_1 .cke_toolgroup, 
+#time-pattern-form .modal-body .cke_1 .cke_toolgroup {
+    border-color: #666;
+}
+
+
+
+#save-saturation-form h3 {
+    margin: 0 10px 20px;
+    font-weight: 500;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 12px;
+}
+#save-saturation-form .formborder hr {
+    margin: 0;
+    border-top: 1px solid #d7d7d7;
+}
+#save-saturation-form .formpttrn label {
+    margin: 0;
+}
+
+#save-saturation-form .stepthree {
+    margin-bottom: 20px;
+}
+#save-saturation-form .formborder h4, 
+#save-saturation-form form h4 {
+    font-weight: 400;
+    color: #000;
+}
+#save-saturation-form .formborder .modal-body input {
+    border-color: #999;
+}
+#save-saturation-form .formborder .modal-body, 
+#save-saturation-form .modal-body {
+    padding: 5px 15px;
+}
+#save-saturation-form .formborder .modal-body .cke_1.cke_chrome, 
+#time-pattern-form .modal-body .cke_1.cke_chrome {
+    border: 1px solid #999;
+}
+#save-saturation-form .formborder .modal-body .cke_1 span.cke_top, 
+#time-pattern-form .modal-body .cke_1 span.cke_top {
+    border-bottom: 1px solid #999;   
+}
+#save-saturation-form .formborder .modal-body .cke_1 span.cke_bottom, 
+#time-pattern-form .modal-body .cke_1 span.cke_bottom {
+    border-top: 1px solid #999;   
+}
+#save-saturation-form .formborder .modal-body .cke_1 .cke_toolgroup, 
+#time-pattern-form .modal-body .cke_1 .cke_toolgroup {
+    border-color: #666;
+}
+.task-form {
+    padding: 0 26px;
+}
+.task-form h3 {
+    margin: 16px 0;
+}
+.time-ptr-form hr {
+    border-color: #d7d7d7;
+    margin: 10px 0 20px;
+}
+.tform-detail {
+    margin-bottom: 10px;
+}
+.tform-detail ul li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 29.33%;
+}
+.tform-detail .input-dtls input {
+    width: 90%;
+    padding-left: 10px;
+}
+#id_indications li, #id_unitsmeasurements li {
+    display: inline-block;
+}
+#id_positions, 
+#id_indications, 
+#id_unitsmeasurements {
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 100px;
+}
+.tform-detail ul li label {
+    position: relative;
+    padding-left: 20px;
+    font-size: 13px;    
+    text-transform: capitalize;
+    line-height: 21px;
+}
+.tform-detail ul li label::before {
+    position: absolute;
+    content: '';
+    border: 1px solid #32c5d2;
+    height: 14px;
+    width: 14px;
+    top: 5px;
+    left: 0;
+}
+.tform-detail ul li label::after {
+    content: "\f00c";
+    color: #32c5d2;
+    top: 6px;
+    position: absolute;
+    left: 1px;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.tform-detail ul li label.checked::after {
+    opacity: 1;
+}
+.tform-detail ul li label input {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 3px 0 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    min-height: 21px;
+    opacity: 0;
+}
+.custom-checkbox input[type="checkbox"] {
+    position: absolute;
+    top: 0;
+    height: 22px;
+    width: 20px;
+    z-index: 1;
+    opacity: 0;
+}
+.custom-checkbox label {
+    position: relative;
+    top: -6px;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+.custom-checkbox label:before {
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    border: 1px solid #32c5d2;
+    top: 0;
+    left: 0;
+}
+.custom-checkbox input[type="checkbox"]:checked + label:after {
+    content: "\f00c";
+    color: #32c5d2;
+    top: 1px;
+    position: absolute;
+    left: 2px;
+    font-size: 15px;
+}
+.time-ptr-form hr.custom-hr {
+    border-color: #a9a9a9;
+    margin: 15px 0;
+}
+#todo-task-modal .task-form {
+    position: initial;
+}
+#todo-task-modal .task-form .save-timebtn {
+    position: absolute;
+    bottom: 10px;
+    right: 35px;
+}
+.task_form_col {
+    position: initial;
+}
+
+.custom-has-error{
+    border : 1px solid red!important;
+}
+
+label.tlabel::before {
+   position: absolute;
+   content: '';
+   border: 1px solid #32c5d2;
+   height: 14px;
+   width: 14px;
+   top: 3px;
+   left: 14px;
+}
+label.tlabel::after {
+   content: "\f00c";
+   color: #32c5d2;
+   top: 3px;
+   left: 14px;
+   position: absolute;
+   font: normal normal normal 14px/1 FontAwesome;
+   font-size: 12px;
+   opacity: 0;
+   transition: opacity 0.3s ease;
+}
+label.tlabel.checked::after {
+   opacity: 1;
+}
+label.tlabel input {
+   display: inline-block;
+   vertical-align: middle;
+   margin: 0 3px 0 0;
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   min-height: 21px;
+   opacity: 0;
+}
+label.tlabel {
+   display: inline-block;
+}
+
+
+.stepthree ul li {
+    margin-right: 10px;
+}
+.contact-filter {
+    max-height: 200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    word-wrap: break-word;
+}
+.task-time-fields #t {
+    background: #32c5d2;
+    font-size: 16px!important;
+    height: 24px;
+    width: 90px;
+    -webkit-border-radius: 20px!important;
+    -moz-border-radius: 20px!important;
+    border-radius: 20px!important;
+}
+
+
+select.hours {
+        padding: 0 14px;
+        height: 25px;
+    }
+#hour_drop h5 {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    font-weight: 400;
+}
+.tymmin {
+    padding-right: 0;
+}
+input.search-input {
+    border: 1px solid gray;
+    padding: 4px;
+    border-radius: 24px !important;
+    text-align: center;
+    width: 100%;
+}
+input.search-input:focus {
+    outline: 0;
+}
+label.search-label {
+    margin-top: 4px;
+}
+.search-staff-company {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.first-head h4, .first-head span, 
+.seond-head label {
+    max-width: 45%;
+    width: 100%;
+    margin-right: 24px;
+    vertical-align: top;
+    word-break: break-all;
+}
+.form-body.organization-contact {
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.pd-none {
+    padding: 0;
+}
+.text-area textarea {
+    height: 100px;
+}
+.text-area {
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(170, 170, 170, 0.5);
+    padding-bottom: 20px;
+}
+hr.devider {
+    margin: 0;
+    border-top: 1px solid rgba(170, 170, 170, 0.5);
+}
+#client-requirment .row {
+    margin: 0;
+}
+#client-requirment textarea {
+    height: 110px;
+    resize: vertical;
+}
+#client-requirment label {
+    text-align: left;
+}
+.providers-contact {
+    height: 600px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#available_provider {
+    list-style: none;
+    margin-top: 45px;
+}
+#available_provider .chat,
+#available_provider .see-resume {
+    margin-top: 10px;
+}
+#available_provider .chat {
+    margin-left: 20px;
+}
+#available_provider .action_btns {
+    float: right;
+    max-width: 200px;
+}
+#available_provider .fancybox {
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin: 0;
+}
+#available_provider .fancybox img {
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 0 0 2px #36c6d3;
+    box-shadow: 0 0 0 2px #36c6d3;
+}
+.form .providers-contact {
+    padding: 20px 30px 20px 20px;
+}
+#available_provider li .questionsection .col-md-8 {
+    padding-left: 40px;
+}
+#available_provider .ui-sortable-handle h4 {
+    margin-bottom: 10px;
+}
+#available_provider hr {
+    border-color: #bbb;
+}
+#employee-post hr{
+    border-color: #ccc;
+    margin: 10px 0 16px;
+}
+#employee-post div strong{
+    margin-right: 10px;
+}
+a.red {
+    padding: 5px 0;
+    width: 50px;
+    margin: 0;
+}
+a.green.apply {
+    width: 50px;
+    padding: 5px 0;
+}
+
+#employee-post label, 
+#company-post label {
+    word-break: break-all;
+}
+#company-post hr{
+    border-color: #ccc;
+    margin: 10px 0 16px;
+}
+#company-post div strong{
+    margin-right: 10px;
+}
+/*#company-post a {
+    margin-left: 10px;
+    display: inline-block;
+    padding: 5px 20px;
+}
+#company-post ul .row > div:first-child{
+    margin-left: 20px;
+}*/
+.see-resume + .more-info {
+    margin: 10px 20px 0 0;
+}
+.more-info {
+    margin: 10px 0 0 20px;
+}
+.category-form label.control-label {
+    text-align: left;
+}
+.category-form {
+    padding: 0 50px;
+}
+
+
+.category-form .panel-heading {
+    border: none;
+}
+.category-form .panel-body {
+    padding: 20px 14px 10px;
+}
+.category-form .panel-body .form-group label {
+    font-size: 14px;
+}
+.category-form .panel-title a {
+    margin-left: 40px;
+}
+.post-sub-categry .row{
+    margin: 0;
+}
+.post-sub-categry .categry_link{
+    text-decoration: none;
+    color: #666;
+    padding-left: 32px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.post-sub-categry .sub_categry{
+    display: none;
+}
+.form-horizontal label.control-label{
+    text-align: left;
+}
+.form-horizontal .form-group{
+    padding-left: 30px;
+}
+.form-horizontal .category-form .panel-title a{
+    margin-left: 16px;
+}
+#post-category-form hr{
+    border-color: #d9d9d9;
+    width: 96%;
+    margin: 0 auto;
+    display: block;
+}
+
+
+#accordion .panel-heading, 
+#post-category-form .form-actions {
+    background: transparent;
+}

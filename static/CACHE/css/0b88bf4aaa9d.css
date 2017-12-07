@@ -1,0 +1,13 @@
+.portlet.calendar.light .fc-button-group .fc-button{
+  top: -2px;
+}
+.portlet.calendar.light .fc-button.fc-state-disabled{
+    top: 0;
+}
+
+
+@media screen and (max-width: 767px){
+  .portlet.calendar.light .fc-button-group .fc-button{
+    padding: 5px 4px 8px;
+  }
+}

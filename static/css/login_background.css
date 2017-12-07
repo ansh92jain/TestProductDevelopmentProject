@@ -1,0 +1,43 @@
+
+body.login {
+    background-image: url(/static/img/7medic_bg.jpg);
+    background-size: cover;
+        
+}
+.login .content {
+    background-color: rgba(236, 238, 241, 0.8);
+}
+.login-form a {
+	text-decoration: none;
+}
+
+.login .content .login-form .form-actions{
+  	padding: 25px 30px 10px;
+  	margin-bottom: 12px;
+}
+
+body{
+    background: #364150;
+}
+section.inactive_acc{
+    background: #eceef1;
+    max-width: 600px;
+    width: 100%;
+    margin: 150px auto 0;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+section.inactive_acc h1{
+    font-size: 36px;
+    color: #4db3a5;
+    margin-bottom: 0px;
+}
+section.inactive_acc h1 + p{
+    color: #666;
+    font-size: 20px;
+}
+section.inactive_acc h1 + p + p{
+    font-size: 15px;
+    color: #666;
+}
