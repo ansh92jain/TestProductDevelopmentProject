@@ -1,0 +1,13 @@
+
+{% load i18n %}
+{% load staticfiles %}
+<link href="{% static 'css/login_background.css' %}" rel="stylesheet" type="text/css" />
+{% block title %}{% trans "Account Inactive" %}{% endblock %}
+
+<section class="inactive_acc">
+    <h1>{% trans "Account Inactive" %}</h1>
+
+    <p>{% trans "This account is inactive." %}</p>
+    <p>Please check your email now...</p>
+</section>
+

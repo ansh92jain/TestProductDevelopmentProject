@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% load i18n %}
+
+
+{% block title %}{% trans "Insurance Test Job" %}{% endblock %}
+
+
+{% block page_level_plugins %}
+    
+{% endblock %}
+
+{% block body_block %}
+
+    <div class="custheader-main">
+
+        <div class="row custheader">
+            
+            <div class="portlet-title">
+                <div class="caption font-dark">
+                    <i class="icon-user font-dark"></i>
+                    <span class="caption-subject bold uppercase">{% trans "INSURENCE" %}</span>
+                </div>
+            </div>
+        </div>
+        <hr class="cust-border"></hr>
+        <ul>
+        {% for insu in  insurance %}
+            <li>{{insu.insurance_name}}
+            </li>
+            <a href="{% url 'insurance:update_insurance' insu.id%}"><button>Update</button></a>
+            <a href="{% url 'insurance:display_insurance_template_form' insu.id%}"><button>Display Form</button></a>
+            
+        {%endfor%}
+    </div>
+    
+    
+{% endblock %}
+
+{#% block js %}
+    
+        
+{#% endblock %}

@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% load i18n %}
+
+
+{% block title %}{% trans "Create Insurance" %}{% endblock %}
+
+
+{% block page_level_plugins %}
+    
+{% endblock %}
+
+{% block body_block %}
+
+    <div class="custheader-main">
+
+        <div class="row custheader">
+            
+            <div class="portlet-title">
+                <div class="caption font-dark">
+                    <i class="icon-user font-dark"></i>
+                    <span class="caption-subject bold uppercase"> INSURANCE TEMPLATE FORM</span>
+                </div>
+            </div>
+        </div>
+        <hr class="cust-border"></hr>
+    {% if insurance_template %}
+        <form id="contact_type_form" method="POST" action="." class="form-horizontal"
+                enctype="multipart/form-data">
+                {% csrf_token %}
+        <form action="." method="post" id='display_insurance_template_form'>{% csrf_token %} 
+            <div class='row'>
+                {% for i in  text_field %}
+                    text field lable:<input type="text" name="">
+                {%endfor%}
+                <br>
+                {% for i in radio %}
+                    radio button lable<input type="radio" name="gender" value="male" checked>
+                {%endfor%}
+                <br>
+                {% for i in choice %}
+                <lable >radio button leable:</lable>
+                    <select>
+                        <option>demo</option>
+                    </select>
+                    
+                {%endfor%}
+                <br>
+                {% for i in checkbox %}
+                    checkbox lable:<input type="checkbox" name="vehicle" value="Bike"><br>
+                {%endfor%}
+                <br>
+                
+                
+            </div>
+            <div class="form-body">
+            <h3 class="form-section"></h3>
+           
+        
+        </div> 
+                
+            <input type="submit" name="">
+        </form>
+        {%else%}
+            <label><b>No form found</b></label>
+        {%endif%}    
+        
+    </div>
+    
+    
+{% endblock %}
+
+{#% block js %}
+    
+{#% endblock %}

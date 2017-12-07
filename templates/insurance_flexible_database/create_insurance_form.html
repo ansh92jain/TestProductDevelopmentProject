@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% load i18n %}
+
+
+{% block title %}{% trans "Create Insurance" %}{% endblock %}
+
+
+{% block page_level_plugins %}
+    
+{% endblock %}
+
+{% block body_block %}
+
+    <div class="custheader-main">
+
+        <div class="row custheader">
+            
+            <div class="portlet-title">
+                <div class="caption font-dark">
+                    <i class="icon-user font-dark"></i>
+                    <span class="caption-subject bold uppercase"> INSURANCE FORM</span>
+                </div>
+            </div>
+        </div>
+        <hr class="cust-border"></hr>
+        <form id="contact_type_form" method="POST" action="." class="form-horizontal"
+                enctype="multipart/form-data">
+                {% csrf_token %}
+        <form action="." method="post" id='create_insurance_form'>{% csrf_token %} 
+            <div class='row'>
+                
+                <div class="col-md-8"> 
+                    {{form.as_p}}
+                </div>  
+            </div>
+            <div class="form-body">
+            <h3 class="form-section"></h3>
+            <input type="hidden" name="form-count" id="fiels-form-count" value="1">
+        
+        </div> 
+                
+            <input type="submit" name="">
+        </form>
+        
+    </div>
+    
+    
+{% endblock %}
+
+{#% block js %}
+    
+{#% endblock %}
